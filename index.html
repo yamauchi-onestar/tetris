@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <title>テトリス</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
         canvas {
             border: 1px solid #000;
             background-color: #fff;
+            display: block;
+            margin: 0 auto;
         }
         #score, #controls {
             font-size: 20px;
             margin-top: 10px;
+            text-align: center;
         }
-        #controls {
-            margin-top: 10px;
+        #controls ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #controls li {
+            margin: 5px 0;
         }
     </style>
 </head>
